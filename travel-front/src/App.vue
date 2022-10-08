@@ -5,6 +5,6 @@
 </template>
 
 <style scoped>
-@import './assets/normalize.css';
-@import './assets/mybase.css';
+  @import './assets/normalize.css';
+  @import './assets/mybase.css';
 </style>

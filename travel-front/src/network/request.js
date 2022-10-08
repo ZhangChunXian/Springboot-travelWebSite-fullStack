@@ -1,4 +1,4 @@
-import axios from "axios";
+axiosimport axios from "axios";
 //导入路由
 import router from '@/router/routers.js'
 import Qs from 'qs'

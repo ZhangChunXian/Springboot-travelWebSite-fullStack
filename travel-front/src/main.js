@@ -30,10 +30,10 @@ Vue.prototype.$moment = Moment;
 /*图片懒加载*/
 import VueLazyload from 'vue-lazyload'
 Vue.use(VueLazyload, {		//options配置项
-    preLoad: 1.5,
-    error: require('./assets/images/common/404.jpg'),
-    loading: require('./assets/images/common/loading.gif'),
-    attempt: 5
+  preLoad: 1.5,
+  error: require('./assets/images/common/404.jpg'),
+  loading: require('./assets/images/common/loading.gif'),
+  attempt: 5
 })
 
 /*定义常量*/
@@ -56,7 +56,7 @@ import mymixin from "@/utils/mymixin";
 Vue.use(mymixin);
 
 new Vue({
-    router: routers,
-    store,
-    render: h => h(App)
+  router: routers,
+  store,
+  render: h => h(App)
 }).$mount('#app')
