@@ -1,4 +1,4 @@
-git <template>
+<template>
   <div class="preview-view">
     <Java :value="content" :height="height" />
   </div>
